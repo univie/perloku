@@ -31,6 +31,7 @@ if [ -f $BUILD_DIR/Makefile.PL ]; then
 
   mkdir -p "$CACHE_DIR"
   $CPANM --self-upgrade
+  $CPANM -v
   $CPANM --notest --installdeps --force "$BUILD_DIR" 2>&1 | indent
 
   cp -R "$CACHE_DEPS" "$VENDOR_DEPS"
