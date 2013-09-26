@@ -8,7 +8,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 PERL_VERSION="5.12.4"
-PERL_PACKAGE="http://s3.amazonaws.com/acme/perl/perl-5.12.4.tar.gz"
+PERL_PACKAGE="s3.amazonaws.com/acme/perl/perl-5.12.4.tar.gz"
 
 VENDORED_PERL="$BUILD_DIR/vendor/perl"
 
